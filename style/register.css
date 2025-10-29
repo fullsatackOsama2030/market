@@ -1,0 +1,44 @@
+main{
+   max-width: 800px;
+
+section{
+    box-shadow: 8px 2px 5px 0px rgba(255, 255, 255, 0.75);
+-webkit-box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 0.75);
+-moz-box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 0.75);
+
+ .regist form{
+    padding: 2rem;
+
+display: flex;
+ flex-direction: column;
+ .text{
+    max-width: 100%;
+    height: 40px;
+    margin-top: 0.2rem;
+    border-radius: 5px;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+label{
+margin-top: 0.7rem;
+}
+.chec{
+    margin-top: 1.5rem;
+margin-bottom: 2rem;
+}
+.btn{
+    max-width: 20%;
+    padding-block: .5rem;
+    padding-inline: .5rem;
+margin: 2px;
+background-color: var(--blue-button);
+color: var(--bodyGB);
+}
+.btn:active{
+    scale: .9;
+}
+}
+
+
+}}
+

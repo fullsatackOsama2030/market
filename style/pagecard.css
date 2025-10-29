@@ -1,0 +1,124 @@
+header.flex{
+    background-color: var(--footer);
+    color: var(--bodyBG);
+    padding-block: 0.6rem;
+
+&.fa-solid{
+    color: var(--bodyBG);
+display: none;
+}
+&.logo{
+    font-size: 1.5rem;   
+}
+&.logo:hover{
+    scale:0.55;
+}
+
+& .sign-in:hover , .register:hover ,.cart:hover {
+  border:1px solid white;
+  padding: 0.5rem 1.1rem;
+ & .fa-solid{
+    color: rgb(27, 224, 208);
+ }   
+}}
+
+
+
+section.cart article{
+  
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 1rem;
+
+    border-top: 2px solid rgb(77, 77, 206);
+box-shadow: 8px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+background-color: white;
+margin-top: 1rem;
+
+font-weight: 500;
+
+justify-content: space-between;
+margin-inline:auto ;
+padding: .5rem .5rem;
+max-width:600px;
+
+img{
+border-top-left-radius:0.5rem ;
+border-top-right-radius:0.5rem;
+border-bottom-right-radius:0.5rem;
+
+
+}
+
+div {
+    div.quan{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 50%;
+
+   justify-content: center;
+    align-items: center;
+    width: 22px;
+height:22px;
+    }
+   .inc, .dec{
+    color: blue;
+    font-size: 1.8rem;
+  padding-left:0.4rem;
+  padding-right:0.4rem;
+
+   } 
+}}
+
+.but{
+    background-color: var(--butcolor);
+    color: var(--bodyBG);
+    padding-block: 1rem;
+    margin-top: 1rem;
+    padding-inline: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+.fa-solid{
+    padding-right: .2rem;}
+    .fa-solid:hover{
+        scale: 2;
+    }
+}
+
+section.summary{
+
+box-shadow: 8px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+
+    max-width: 300px;
+    margin-inline:auto;
+
+    .sub{
+        justify-content: space-between;
+margin: 0.4rem;
+
+
+    }
+    .chec{
+           background-color:hsl(240, 98%, 58%);
+    color: var(--bodyBG);
+    padding-block: 1rem;
+width:100%;
+    border-radius: 5px;
+    margin-bottom: 0.4rem;
+    margin-top: 1rem;
+    }
+    h1{
+        padding-bottom: .4rem;
+        border-bottom: 1px solid rgb(161, 156, 156);
+    }
+    .log{
+        color: red;
+        padding: 1rem;
+        margin-top: 0.5rem;
+        border-top: 1px solid  rgb(161, 156, 156);
+    }
+}

@@ -1,0 +1,77 @@
+.flex{
+    display:flex;
+    align-items: center;
+}
+header.flex{
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+
+& .links .fa-solid{
+   margin-right: 0.3rem;
+   color:var(--icon)
+ }
+    & .sign-in{
+    margin-inline:1rem ;
+}
+& .sign-in , .register{
+border:1px solid var(--bodyFont);
+padding:0.44rem 1rem ;
+border-radius:55px ;
+
+font-size: 0.8rem;
+font-weight: 500;
+}
+
+& .sign-in:hover , .register:hover{
+    background-color: var(--bodyFont);
+    color:var(--blue);
+ & .fa-solid{
+    color: aliceblue;
+ }   
+}
+& .cart{
+    background-color: var(--bodyFont);
+    color: var(--blue);
+    font-size: 0.9rem;
+    padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+   border-radius: 55px;
+   position: relative;
+    & .fa-solid{
+        color:var(--blue);
+    }
+
+& .products-number{
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: -7px;
+font-size: 0.7rem;
+font-weight: bold;
+width: 22px;
+height:22px;
+align-items: center;
+justify-content: center;
+    display: flex;
+    background-color: var(--iconback);
+}
+}
+
+
+
+
+
+& .logo{
+& .fa-solid{
+    font-size: 3rem;
+}
+}
+.nav{
+    margin-top: 180px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    background-image:radial-gradient(blue 90%,black 20%,red 5%);
+}
+
+}
